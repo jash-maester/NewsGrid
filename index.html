@@ -112,9 +112,14 @@
             <div>
                 <h3>Email Newsletter</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                <form>
-                    <input type="email" placeholder="Enter Email....">
-                    <input type="submit" value="Subscribe" class="btn btn-primary">
+                <form name="subscribe" method="POST" data-netlify="true">
+                    <p>
+                        <input type="email" placeholder="Enter Email....">
+                    </p>
+                    <!-- <input type="submit" value="Subscribe" class="btn btn-primary"> -->
+                    <p>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </p>
                 </form>
             </div>
             <div>
